@@ -1,3 +1,4 @@
+//MOHAN KUMAR CHENNUPATI
 #include "bits/stdc++.h"
 using namespace std;
 
@@ -27,7 +28,7 @@ int main(){
     queue<int> q;
     q.push(1);
     vis[1]=true;
-    printf("Breadth first search order is:-\n");
+    printf("Breadth first search order is:-\n"); 
     while(!q.empty()){
         int node =q.front();
 
